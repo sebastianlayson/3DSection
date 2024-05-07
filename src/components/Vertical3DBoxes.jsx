@@ -20,7 +20,7 @@ const Vertical3DModels = () => {
                 </Canvas>
             </div>
             <div className="canvas-container" style={{ height: '120px', width: '120px' }}>
-                <Canvas camera={{ position: [5, 2, 5], fov: 50 }}>
+                <Canvas camera={{ position: [1, -2, 7], fov: 50 }}>
                     <ambientLight intensity={100} /> {/* Again, set higher intensity */}
                     <OrbitControls /> {/* Add OrbitControls for better model interaction */}
                     <GPU />
